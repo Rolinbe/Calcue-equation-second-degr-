@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #ccc;
+}
+
+.equation-wrapper{
+    background-color: aliceblue;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.equation-wrapper h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: cursive;
+    color: #10183f;
+}
+.eq-wrapper {
+    justify-content: center;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+input {
+    width: 10%;
+    padding: 5px;
+    color: blueviolet;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+#calculatrice {
+    width:6%;
+    border: 0;
+    font-size: 30px;
+    padding: 2px;
+    margin-left: 10px;
+    transition: 0.2s ease;
+}
+#calculatrice:hover {
+    border-radius: 50%;
+    background-color: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Error Message */
+#error-wrapper {
+    color: rgb(218, 54, 54);
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    display: none;
+}
+
+/* Solution Message */
+#solution-wrapper {
+    color: rgb(37, 37, 37);
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    display: none;
+}
+span {
+    font-weight: bold;
+    font-size: 13px;
+}
+.zero {
+    color: #10183f;
+    font-size: 30px;
+}

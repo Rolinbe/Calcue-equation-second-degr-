@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calcule second degré</title>
+  <script src="javaS.js" type="text/javascript" defer></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="equation-wrapper">
+    <h4>Entrez votre équation</h4>
+
+    <div class="eq-wrapper">
+      <input type="text" name="coef_a" id="coef_a">
+      <span>X<sup>2</sup></span>
+
+      <span>+</span>
+
+      <input type="text" name="coef_b" id="coef_b">
+      <span>X</span>
+
+      <span>+</span>
+
+      <input type="text" name="coef_c" id="coef_c"">
+
+      <button id="calculatrice">=</button>
+      <span class="zero">0</span>
+    </div>
+
+    <!-- Erreur -->
+    <div id="error-wrapper">
+      Une erreur se produit , veuillez vérifié vos coeficient !
+    </div>
+
+    <!-- Une nvl boite pour les solution -->
+    <div id="solution-wrapper">
+     
+    </div>
+  </div>
+</body>
+</html>
