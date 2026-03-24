@@ -37,7 +37,7 @@ body {
 input {
     width: 10%;
     padding: 5px;
-    color: blueviolet;
+    color: rgb(127, 33, 214);
     font-size: 20px;
     border-radius: 8px;
     outline: none;
